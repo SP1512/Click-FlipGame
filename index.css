@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+    color:rgb(31, 8, 235);
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#name1{
+  font-size: 30px;
+  margin: auto;
+ margin-top: 60px;
+ margin-left: 80px;
+ 
+ 
+
+  border: 1px solid blueviolet;
+  padding: 8px;
+  background-color: rgb(21, 235, 21);
+}
+
+.mark{
+    border: 1px ;
+}
+.stopwatch{
+   
+    width: 350px;
+    height: 120px;
+    margin-top: 60px;
+    margin-left: 60px;
+    
+    padding: 10px;
+    border: 1px solid rgb(8, 233, 8);
+    background-color: rgb(238, 20, 220);
+}
+
+.timerDisplay{
+    
+    border-width: 1px;
+    width: 92%;
+    background: #ffffff;
+    left: 4%;
+    padding: 10px 0;
+    font-family: 'Roboto mono',monospace;
+    color: #0381bb;
+    font-size: 30px;
+    border-radius: 2px;
+   
+}
+#Reset{
+  background-color: #C2FBD7;
+  border-radius: 70PX;
+  border-width: 1px;
+  margin-left: 50px;
+  box-shadow: rgba(25,25,25,0.04)0 0 1px 0, rgba(0,0,0,0.1)0 3px 4px 0;
+  color: #008000;
+  padding: 15px;
+}
+
+#startTimer{
+    background-color: #C2FBD7;
+    border-radius: 70PX;
+    border-width: 1px;
+    box-shadow: rgba(25,25,25,0.04)0 0 1px 0, rgba(0,0,0,0.1)0 3px 4px 0;
+    color: #008000;
+    
+    padding: 15px;
+    
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #faea0b;
+    width: 90%;
+    height: auto;
+  }
+  
+  #input{
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  .memory-game {
+    width: 800px;
+    height: 500px;
+    margin: auto; 
+    margin-left: 80px;
+    margin-right: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    perspective:1000pt;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: absolute;
+    border-radius: 5px;
+    background: #1C7CCC;
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+
+  .marqu{
+    width: 100%;
+    font-size: 20px;
+    direction: left;
+    position: fixed;
+    height: 20px;
+    bottom: 42px;
+    color: rgb(195, 236, 44);
+    background-color: rgb(190, 82, 91);
+  }
+  
+
+  footer{
+    text-align: center;
+    color: rgb(244, 252, 244);
+    background-color: rgb(134, 30, 204);
+    padding: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-style:italic;
+    
+  }

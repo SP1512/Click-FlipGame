@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Click&Flip</title>
+</head>
+<body background="image/backgroundbody.jpeg">
+    <h1>Click & Flip Game</h1>
+    <div id="input">
+      <div id="name1">
+       <span>
+        <input id="names" name="names"><br>
+        <label for="names">Enter Your Name</label>
+        </span>
+      </div>
+      <section class="memory-game">
+        
+        <div class="memory-card" data-framework="cat1">
+          <img class="front-face" src="image/Cat1.jpeg" alt="Cat1" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="cat1">
+          <img class="front-face" src="image/Cat1.jpeg" alt="Cat1" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+    
+        <div class="memory-card" data-framework="dogi1">
+          <img class="front-face" src="image/Dogi1.jpeg" alt="Dogi1" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="dogi1">
+          <img class="front-face" src="image/Dogi1.jpeg" alt="Dogi1" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+    
+        <div class="memory-card" data-framework="bear">
+          <img class="front-face" src="image/bear.jpeg" alt="Bear" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="bear">
+          <img class="front-face" src="image/bear.jpeg" alt="Bear" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+    
+        <div class="memory-card" data-framework="lion">
+          <img class="front-face" src="image/lion.jpeg" alt="Lion" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="lion">
+          <img class="front-face" src="image/lion.jpeg" alt="Lion" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+    
+        <div class="memory-card" data-framework="monckey">
+          <img class="front-face" src="image/monckey.jpeg" alt="Monckey" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="monckey">
+          <img class="front-face" src="image/monckey.jpeg" alt="Monckey" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+    
+        <div class="memory-card" data-framework="tiger">
+          <img class="front-face" src="image/tiger.jpeg" alt="Tiger" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        <div class="memory-card" data-framework="tiger">
+          <img class="front-face" src="image/tiger.jpeg" alt="Tiger" />
+          <img class="back-face" src="image/back.jpeg" alt="back" />
+        </div>
+        </section>
+       
+          <div class="Stopwatch">
+             <div class="timerDisplay" id="stops" >
+                00 : 00 : 00 
+             </div>
+             
+          <div class="buttons">
+            <button id="startTimer" class="btn" onclick="myfunction()" >Start</button>
+            <button id="Reset" type="reset" onclick="window.location.reload();">RESET</button>
+          </div>
+        </div>
+          
+    </div>
+    
+    <div class="marqu">
+      <marquee behavior="alternate">Double Click To Start The Game</marquee>
+    </div>
+      
+   
+    <div>
+      <footer><span>Click&Flip Game Build by SP<span><br><span>
+       Any queries contact sp703835@gamil.com
+      </span></footer>
+    </div>
+     <script src="index.js">
+
+     </script>
+</body>
+</html>
